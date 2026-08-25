@@ -2,15 +2,7 @@
 
 
 
-\## 🚀 AI-Powered Early Warning System
-
-
-
-An intelligent Machine Learning and Streamlit-based application designed to identify students who may be at risk of academic dropout.
-
-
-
-The system analyzes academic, personal, and financial indicators to estimate dropout risk and provides personalized recommendations and intervention plans.
+An AI-powered Machine Learning application designed to identify students who may be at risk of academic dropout. The system analyzes academic, personal, and financial factors to predict dropout probability and provide early intervention recommendations.
 
 
 
@@ -18,23 +10,19 @@ The system analyzes academic, personal, and financial indicators to estimate dro
 
 
 
-\## 🌐 Live Demo
+\## 🚀 Live Application
 
 
 
-🚀 \*\*Live Application:\*\*
+🌐 \*\*Streamlit App:\*\*  
+
+\[Open the Student Dropout Prediction System](https://student-academic-ai-mnosmkzzs5sg5rodbvep2h.streamlit.app)
 
 
 
-https://student-academic-ai-mnosmkzzs5sg5rodbvep2h.streamlit.app/
+💻 \*\*GitHub Repository:\*\*  
 
-
-
-💻 \*\*GitHub Repository:\*\*
-
-
-
-https://github.com/SAKETHYADAV580/student-academic-ai
+\[View Source Code](https://github.com/SAKETHYADAV580/student-academic-ai)
 
 
 
@@ -46,15 +34,11 @@ https://github.com/SAKETHYADAV580/student-academic-ai
 
 
 
-Student dropout is an important challenge for educational institutions.
+Student dropout is a major challenge in educational institutions. Identifying at-risk students at an early stage can help institutions provide academic support and interventions.
 
 
 
-Traditional systems often identify struggling students only after their academic performance has significantly declined.
-
-
-
-This project provides an \*\*AI-based early warning system\*\* that analyzes student information and predicts the probability of dropout.
+This project uses \*\*Machine Learning\*\* to analyze student-related information and predict the probability of academic dropout.
 
 
 
@@ -62,27 +46,21 @@ The application provides:
 
 
 
-\- Dropout risk prediction
+\- 🤖 Individual student dropout prediction
 
-\- Risk classification
+\- 👥 Batch prediction using CSV files
 
-\- Risk factors
+\- 📊 Interactive analytics dashboard
 
-\- AI-generated student analysis
+\- 🚨 High-risk student identification
 
-\- Personalized recommendations
+\- 🧠 AI-based personalized student analysis
 
-\- 4-week intervention plans
+\- 📅 Smart 4-week intervention plan
 
-\- Batch student prediction
+\- 📜 Prediction history tracking
 
-\- Analytics dashboard
-
-\- Prediction history
-
-\- PDF reports
-
-\- TXT reports
+\- 📄 Downloadable TXT and PDF reports
 
 
 
@@ -90,25 +68,39 @@ The application provides:
 
 
 
-\# 🎯 Objectives
+\# 🖥️ Application Features
 
 
 
-The main objectives of this project are:
+\## 🏠 Dashboard
 
 
 
-1\. Predict student dropout probability using Machine Learning.
+The dashboard provides an overview of student predictions and risk levels.
 
-2\. Identify students requiring early intervention.
 
-3\. Analyze academic and financial risk factors.
 
-4\. Provide personalized intervention recommendations.
+Features include:
 
-5\. Support educational institutions with data-driven decision making.
 
-6\. Provide an easy-to-use web dashboard.
+
+\- Total students analyzed
+
+\- Low-risk students
+
+\- Medium-risk students
+
+\- High-risk students
+
+\- Average dropout risk
+
+\- Student risk distribution
+
+\- Department-wise risk analysis
+
+\- Top high-risk students
+
+\- Recent predictions
 
 
 
@@ -116,33 +108,115 @@ The main objectives of this project are:
 
 
 
-\# ✨ Key Features
+\## 👤 Single Student Prediction
 
 
 
-\## 🤖 AI Dropout Prediction
+Users can enter student information manually.
 
 
 
-The system predicts the probability that a student may drop out.
+\### Student Information
 
 
 
-Example:
+\- Student Name
+
+\- Student ID
+
+\- Department
+
+\- Semester
+
+\- Age
+
+\- Gender
+
+\- Marital Status
+
+
+
+\### Academic Information
+
+
+
+\- 1st Semester Grade
+
+\- 2nd Semester Grade
+
+\- Approved Subjects
+
+
+
+\### Financial Information
+
+
+
+\- Tuition Fee Status
+
+\- Scholarship Status
+
+\- Student Debt
+
+
+
+The system predicts the student's dropout probability and classifies the risk as:
+
+
+
+| Risk Level | Dropout Probability | Action |
+
+|---|---:|---|
+
+| 🟢 LOW | Below 30% | Routine Monitoring |
+
+| 🟡 MEDIUM | 30% – 60% | Additional Academic Support |
+
+| 🔴 HIGH | Above 60% | Immediate Attention Required |
+
+
+
+\---
+
+
+
+\## 👥 Batch Student Prediction
+
+
+
+The application allows multiple students to be analyzed simultaneously using a CSV file.
+
+
+
+Required CSV columns:
 
 
 
 ```text
 
-Dropout Risk: 72.45%
+Student\_ID
 
+Student\_Name
 
+Department
 
-Risk Level: HIGH
+Semester
 
+Age
 
+Gender
 
-Priority:
+Marital\_Status
 
-Immediate Attention Required
+Grade\_1
+
+Grade\_2
+
+Approved\_Subjects
+
+Tuition
+
+Scholarship
+
+Debt
 
