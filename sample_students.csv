@@ -1,0 +1,11 @@
+Student_ID,Student_Name,Department,Semester,Age,Gender,Marital_Status,Grade_1,Grade_2,Approved_Subjects,Tuition,Scholarship,Debt
+STU001,Rahul Kumar,Data Science,2,20,Male,Single,16,17,8,Yes,Yes,No
+STU002,Priya Sharma,Computer Science,2,19,Female,Single,7,6,2,No,Yes,Yes
+STU003,Arjun Reddy,Data Science,2,21,Male,Single,12,9,4,Yes,No,No
+STU004,Anjali Devi,Artificial Intelligence,2,20,Female,Single,18,17,9,Yes,Yes,No
+STU005,Kiran Kumar,Computer Science,2,22,Male,Married,5,6,1,No,No,Yes
+STU006,Divya Rao,Data Science,2,19,Female,Single,13,14,6,Yes,Yes,No
+STU007,Vikram Singh,Artificial Intelligence,2,23,Male,Single,8,7,3,No,No,Yes
+STU008,Sneha Patel,Computer Science,2,20,Female,Single,15,16,8,Yes,No,No
+STU009,Rohit Verma,Data Science,2,21,Male,Single,10,11,5,Yes,No,No
+STU010,Kavya Nair,Artificial Intelligence,2,19,Female,Single,19,18,10,Yes,Yes,No
